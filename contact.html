@@ -5,22 +5,45 @@
     <title> contact me </title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-  <div> <header> <a href="index.html">About Me</a>
-<a href="portfolio.html">portfolio</a></div>
-
+   <header> <h1>Azza Abdin</h1> 
+  
+  <h2> 
+<button><a href="index.html">About Me</a></button>
+<button> <a href="contact.html">Contact me</a> </button>
+ <button><a href="portfolio.html">Portfolio</a> </button>
+  </h2> 
 </header>
+
 <body>
-  <div3> <form action="mailto:azzabdin@gmail.com"
+  <div class="container"> <form action="/mailto:azzabdin@gmail.com"
     enctype="text/plain">
-        Full name
-       <input type="text" name ="first,last"> 
-        
-       email adress
-        <input type="text" Email adress="email"> </div3>
-        
-        Massage
-       <textarea name="message"
-    rows="10" cols="20"></textarea> 
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label> </div>
+        <div class="col-75"><input type="text" id ="fname"
+          name="First Nmae" placeholder="your name..">
+        </div>
+        </div>
+       <div class="row">
+         <div class="col-25"
+         <label for ="lname">Last Name</label>
+       </div>
+       <div class="col-75">
+         <input type="text" id="lname"
+         name="lastname" placeholder="your last name..">
+         </div>
+         </div>
+         <div class="row">
+           <div class="col-25">
+             <label for="subject">Subject</label>
+             </div>
+             <div class="col-75">
+               <textarea id="Subject"
+               name="Subject" style="height: 200px">
+              </textarea>
+              </div>
+              </div>
+
        <input type="submit" value="send">
        <input type="reset" value="reset"
        

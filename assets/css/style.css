@@ -1,28 +1,68 @@
- div   {float: right;font: outline;background-color:lightpink;color:black}
+html {background-color: lightgray;box-sizing: border-box;}
+body{width: 960px; }
 
-h1 {color: red;
-    font: 1em sans-serif;
-    font-size: 35px;
-    font-style: italic;
-font-weight: 500;}
-
-div1{text-align: center ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 330px;
-    height: 330px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 30px;
-
-    
+header {background-color:#ffffff ;
+    position: relative;
+    border-color: #cccccc;
+margin:10px;
+padding: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h1 {background-color: #4aaaa5; 
+    padding: 30px;
+    position: absolute;
+    bottom :-18px;
+    left:0px ;
+    
+ }
+ h2 {float: right;}
+ img{width:250px ;
+height: 250px;
+float: left;
+margin: 20px;
+ }
+h3 {background-color: #ffffff;
+margin-top: 20px;
+border-bottom: gray
+;padding: 50px;
+color:#4aaaa5;font-size: 30px;
+margin-bottom: 2px}
+div {float: left;
+background-color: #ffffff}
+div1 {margin-left:30px ;
+font-family: Arial, Helvetica, sans-serif}
 
-img {width: 280px;
-    height: 290px;
-    float: left;
-margin: 25px
-padding: 75px,20px,75px,20px;
-margin: 20px;}
-div2 {font-size: 30px;background-color: gray;}
-div3 {font-size: 20px;height: 50cm;width: 50px;border: navy;padding: 70px;}
-textarea {widows: 50px; height: 50px;}
+
+*{box-sizing: border-box ;}
+input[ type=text],select,textarea
+{width:100% ;
+padding: 12px ;
+border: 1px solid black
+;border-radius: 4px;
+resize: vertical;}
+label {padding: 12px 12px 12px 0 ;
+display: inline-block;
+}
+input [type=submit]
+{background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;float: right; }
+.container { border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px }
+
+.col-25 {float: left;
+width: 25%;
+margin-top: 6px;}
+
+.col-75 {float: left;
+width: 75%;
+margin-top: 6px;}
+.row:after {content: "";
+display: table
+;clear: both; }
+.col-25, .col-75, input [type=submit]{width: 100%;
+margin-top:  0 }
