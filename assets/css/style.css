@@ -33,8 +33,12 @@ div1 {margin-left:30px ;
 font-family: Arial, Helvetica, sans-serif}
 .pos{position: relative;}
 
-label {display: block;margin-top: 20px;letter-spacing: 2px}
-form {width:496px;}
+form {border-style: solid;width: 960px;
+height: 260px;background-color: white ;margin-top: 20px;}
+
+    
+
+
 .im1 {position: relative;}
 .im2{position: absolute;left: 350px;}
 .im3{position: absolute;top: 540px;}
