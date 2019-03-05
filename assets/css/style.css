@@ -48,11 +48,8 @@ text-align: center;padding-bottom: 50px; color: white;
 margin-bottom:  25px;border-style: solid;
 border-top-width: 10px;
 border-top-color: #4aaaa5;position: absolute;
-top:600px;width: 960px}
+top:820px;width: 1060px}
+#gems {margin: 50px;position:absolute;top: 500px;font-size: 60px ;}
 
-.fot {position: absolute;top:830px;width: 960px;padding-bottom: 60px;
-    background-color: black; border-style:solid;
-    border-top-width: 10px;
-    border-top-color:#4aaaa5;
-    color: white; text-align: center
-}
+    
+
