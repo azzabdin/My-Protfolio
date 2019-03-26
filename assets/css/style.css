@@ -48,7 +48,7 @@ text-align: center;padding-bottom: 50px; color: white;
 margin-bottom:  25px;border-style: solid;
 border-top-width: 10px;
 border-top-color: #4aaaa5;position: absolute;
-top:820px;width: 1060px}
+top:910px;width: 1060px}
 #gems {margin: 50px;position:absolute;top: 500px;font-size: 60px ;}
 #Trivia{margin: 50px;position: absolute;top: 590px;font-size: 60px}
 #giphy{
@@ -58,3 +58,8 @@ top:820px;width: 1060px}
     font-size: 60px
 }    
 
+#traintime{
+    margin: 50px;position: absolute;
+    top: 770px;
+    font-size: 60px
+}
