@@ -1,5 +1,6 @@
-html {background-color: lightgray;box-sizing: border-box;}
-body{width: 960px; }
+html {background-color: lightgray;box-sizing: border-box;background-image: url("../image/kids.jpg");
+}
+body{width: 960px;}
 
 header {background-color:#ffffff ;
     position: relative;
@@ -13,7 +14,6 @@ h1 {background-color: #4aaaa5;
     position: absolute;
     bottom :-18px;
     left:0px ;
-    
  }
  h2 {float: right;}
  img{width:250px ;
@@ -35,13 +35,6 @@ font-family: Arial, Helvetica, sans-serif}
 
 form {border-style: solid;width: 960px;
 height: 260px;background-color: white ;margin-top: 20px;}
-
-    
-
-
-.im1 {position: relative;}
-.im2{position: absolute;left: 350px;}
-.im3{position: absolute;top: 540px;}
 
 footer {background-color: black;
 text-align: center;padding-bottom: 50px; color: white;
@@ -68,3 +61,6 @@ top:1900px;width: 1060px}
     top: 860px;
     font-size: 60px
 }
+#sql {margin: 50px;position: absolute;
+    top: 920px;
+    font-size: 60px}
